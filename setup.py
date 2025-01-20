@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="wwtest",
-    version="0.1.0",
+    version="1.0.1",
     author="Jonquil Z. Liao",
     author_email="zliao42@wisc.edu",
     description="Wilcoxon--Wigner Test for Matrix Homogeneity",

@@ -24,7 +24,7 @@ from wwtest import wwtest
 mat = np.array([[1, 2, 3], [2, 1, 1], [3, 1, 1]])
 
 # Run the Wilcoxon--Wigner homogeneity test
-result = wwtest(mat)
+result = wwtest(mat, 'eigenvalue')
 print(result)
 ```
 
